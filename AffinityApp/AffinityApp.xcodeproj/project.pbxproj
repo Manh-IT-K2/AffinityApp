@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
+		AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DDA2C3239D000D6F97F /* ContentView.swift */; };
+		AFC06DDD2C3239D100D6F97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC06DDC2C3239D100D6F97F /* Assets.xcassets */; };
+		AFC06DE02C3239D100D6F97F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC06DDF2C3239D100D6F97F /* Preview Assets.xcassets */; };
+		AFC06DEA2C3239D100D6F97F /* AffinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DE92C3239D100D6F97F /* AffinityAppTests.swift */; };
+		AFC06DF42C3239D100D6F97F /* AffinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DF32C3239D100D6F97F /* AffinityAppUITests.swift */; };
+		AFC06DF62C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DF52C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift */; };
+		AFC06E0D2C323C7C00D6F97F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFC06DE62C3239D100D6F97F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC06DCD2C3239D000D6F97F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC06DD42C3239D000D6F97F;
+			remoteInfo = AffinityApp;
+		};
+		AFC06DF02C3239D100D6F97F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFC06DCD2C3239D000D6F97F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFC06DD42C3239D000D6F97F;
+			remoteInfo = AffinityApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppApp.swift; sourceTree = "<group>"; };
+		AFC06DDA2C3239D000D6F97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFC06DDC2C3239D100D6F97F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC06DDF2C3239D100D6F97F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFC06DE52C3239D100D6F97F /* AffinityAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffinityAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC06DE92C3239D100D6F97F /* AffinityAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppTests.swift; sourceTree = "<group>"; };
+		AFC06DEF2C3239D100D6F97F /* AffinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC06DF32C3239D100D6F97F /* AffinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppUITests.swift; sourceTree = "<group>"; };
+		AFC06DF52C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFC06DD22C3239D000D6F97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DE22C3239D100D6F97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DEC2C3239D100D6F97F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFC06DCC2C3239D000D6F97F = {
+			isa = PBXGroup;
+			children = (
+				AFC06DD72C3239D000D6F97F /* AffinityApp */,
+				AFC06DE82C3239D100D6F97F /* AffinityAppTests */,
+				AFC06DF22C3239D100D6F97F /* AffinityAppUITests */,
+				AFC06DD62C3239D000D6F97F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFC06DD62C3239D000D6F97F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06DD52C3239D000D6F97F /* AffinityApp.app */,
+				AFC06DE52C3239D100D6F97F /* AffinityAppTests.xctest */,
+				AFC06DEF2C3239D100D6F97F /* AffinityAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFC06DD72C3239D000D6F97F /* AffinityApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06E062C323B8A00D6F97F /* Extensions */,
+				AFC06E052C323B7E00D6F97F /* Core */,
+				AFC06E042C323B7700D6F97F /* Shared */,
+				AFC06E032C323B6200D6F97F /* Utils */,
+				AFC06E022C323B5A00D6F97F /* App */,
+				AFC06DDA2C3239D000D6F97F /* ContentView.swift */,
+				AFC06DDC2C3239D100D6F97F /* Assets.xcassets */,
+				AFC06DDE2C3239D100D6F97F /* Preview Content */,
+			);
+			path = AffinityApp;
+			sourceTree = "<group>";
+		};
+		AFC06DDE2C3239D100D6F97F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06DDF2C3239D100D6F97F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFC06DE82C3239D100D6F97F /* AffinityAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06DE92C3239D100D6F97F /* AffinityAppTests.swift */,
+			);
+			path = AffinityAppTests;
+			sourceTree = "<group>";
+		};
+		AFC06DF22C3239D100D6F97F /* AffinityAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06DF32C3239D100D6F97F /* AffinityAppUITests.swift */,
+				AFC06DF52C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift */,
+			);
+			path = AffinityAppUITests;
+			sourceTree = "<group>";
+		};
+		AFC06E022C323B5A00D6F97F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AFC06E032C323B6200D6F97F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AFC06E042C323B7700D6F97F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		AFC06E052C323B7E00D6F97F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06E0B2C323C2900D6F97F /* Messaging */,
+				AFC06E0A2C323C2000D6F97F /* Search */,
+				AFC06E092C323C1900D6F97F /* Profile */,
+				AFC06E082C323C0D00D6F97F /* Cards */,
+				AFC06E072C323BF700D6F97F /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AFC06E062C323B8A00D6F97F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AFC06E072C323BF700D6F97F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		AFC06E082C323C0D00D6F97F /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		AFC06E092C323C1900D6F97F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		AFC06E0A2C323C2000D6F97F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		AFC06E0B2C323C2900D6F97F /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFC06DD42C3239D000D6F97F /* AffinityApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC06DF92C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityApp" */;
+			buildPhases = (
+				AFC06DD12C3239D000D6F97F /* Sources */,
+				AFC06DD22C3239D000D6F97F /* Frameworks */,
+				AFC06DD32C3239D000D6F97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AffinityApp;
+			productName = AffinityApp;
+			productReference = AFC06DD52C3239D000D6F97F /* AffinityApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFC06DE42C3239D100D6F97F /* AffinityAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC06DFC2C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityAppTests" */;
+			buildPhases = (
+				AFC06DE12C3239D100D6F97F /* Sources */,
+				AFC06DE22C3239D100D6F97F /* Frameworks */,
+				AFC06DE32C3239D100D6F97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC06DE72C3239D100D6F97F /* PBXTargetDependency */,
+			);
+			name = AffinityAppTests;
+			productName = AffinityAppTests;
+			productReference = AFC06DE52C3239D100D6F97F /* AffinityAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFC06DEE2C3239D100D6F97F /* AffinityAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFC06DFF2C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityAppUITests" */;
+			buildPhases = (
+				AFC06DEB2C3239D100D6F97F /* Sources */,
+				AFC06DEC2C3239D100D6F97F /* Frameworks */,
+				AFC06DED2C3239D100D6F97F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFC06DF12C3239D100D6F97F /* PBXTargetDependency */,
+			);
+			name = AffinityAppUITests;
+			productName = AffinityAppUITests;
+			productReference = AFC06DEF2C3239D100D6F97F /* AffinityAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFC06DCD2C3239D000D6F97F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AFC06DD42C3239D000D6F97F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					AFC06DE42C3239D100D6F97F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFC06DD42C3239D000D6F97F;
+					};
+					AFC06DEE2C3239D100D6F97F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = AFC06DD42C3239D000D6F97F;
+					};
+				};
+			};
+			buildConfigurationList = AFC06DD02C3239D000D6F97F /* Build configuration list for PBXProject "AffinityApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFC06DCC2C3239D000D6F97F;
+			productRefGroup = AFC06DD62C3239D000D6F97F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFC06DD42C3239D000D6F97F /* AffinityApp */,
+				AFC06DE42C3239D100D6F97F /* AffinityAppTests */,
+				AFC06DEE2C3239D100D6F97F /* AffinityAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFC06DD32C3239D000D6F97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC06DE02C3239D100D6F97F /* Preview Assets.xcassets in Resources */,
+				AFC06DDD2C3239D100D6F97F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DE32C3239D100D6F97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DED2C3239D100D6F97F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFC06DD12C3239D000D6F97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC06E0D2C323C7C00D6F97F /* MainTabView.swift in Sources */,
+				AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */,
+				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DE12C3239D100D6F97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC06DEA2C3239D100D6F97F /* AffinityAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC06DEB2C3239D100D6F97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC06DF62C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift in Sources */,
+				AFC06DF42C3239D100D6F97F /* AffinityAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFC06DE72C3239D100D6F97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC06DD42C3239D000D6F97F /* AffinityApp */;
+			targetProxy = AFC06DE62C3239D100D6F97F /* PBXContainerItemProxy */;
+		};
+		AFC06DF12C3239D100D6F97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFC06DD42C3239D000D6F97F /* AffinityApp */;
+			targetProxy = AFC06DF02C3239D100D6F97F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFC06DF72C3239D100D6F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFC06DF82C3239D100D6F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFC06DFA2C3239D100D6F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AffinityApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFC06DFB2C3239D100D6F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AffinityApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFC06DFD2C3239D100D6F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffinityApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AffinityApp";
+			};
+			name = Debug;
+		};
+		AFC06DFE2C3239D100D6F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AffinityApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AffinityApp";
+			};
+			name = Release;
+		};
+		AFC06E002C3239D100D6F97F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AffinityApp;
+			};
+			name = Debug;
+		};
+		AFC06E012C3239D100D6F97F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qmanh.AffinityAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AffinityApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFC06DD02C3239D000D6F97F /* Build configuration list for PBXProject "AffinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC06DF72C3239D100D6F97F /* Debug */,
+				AFC06DF82C3239D100D6F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC06DF92C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC06DFA2C3239D100D6F97F /* Debug */,
+				AFC06DFB2C3239D100D6F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC06DFC2C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC06DFD2C3239D100D6F97F /* Debug */,
+				AFC06DFE2C3239D100D6F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFC06DFF2C3239D100D6F97F /* Build configuration list for PBXNativeTarget "AffinityAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFC06E002C3239D100D6F97F /* Debug */,
+				AFC06E012C3239D100D6F97F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFC06DCD2C3239D000D6F97F /* Project object */;
+}
