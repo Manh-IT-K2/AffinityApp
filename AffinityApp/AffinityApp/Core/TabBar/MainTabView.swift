@@ -1,5 +1,5 @@
 //
-//  MainTabBar.swift
+//  MainTabView.swift
 //  AffinityApp
 //
 //  Created by Q. Mạnh on 1/7/24.
@@ -24,7 +24,7 @@ struct MainTabView: View {
                 .tag(3)
         }
         .tint(.primary)
-        
+
     }
 }
 
