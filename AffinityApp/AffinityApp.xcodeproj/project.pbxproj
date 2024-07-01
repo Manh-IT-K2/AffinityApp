@@ -14,7 +14,6 @@
 		AFC06DEA2C3239D100D6F97F /* AffinityAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DE92C3239D100D6F97F /* AffinityAppTests.swift */; };
 		AFC06DF42C3239D100D6F97F /* AffinityAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DF32C3239D100D6F97F /* AffinityAppUITests.swift */; };
 		AFC06DF62C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DF52C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift */; };
-		AFC06E0D2C323C7C00D6F97F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */; };
 		AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06E0E2C3244E300D6F97F /* CardView.swift */; };
 		AFC06E112C324D4D00D6F97F /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06E102C324D4D00D6F97F /* UserInfoView.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +46,6 @@
 		AFC06DEF2C3239D100D6F97F /* AffinityAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AffinityAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC06DF32C3239D100D6F97F /* AffinityAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppUITests.swift; sourceTree = "<group>"; };
 		AFC06DF52C3239D100D6F97F /* AffinityAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		AFC06E0E2C3244E300D6F97F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AFC06E102C324D4D00D6F97F /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,7 +179,6 @@
 		AFC06E072C323BF700D6F97F /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				AFC06E0C2C323C7C00D6F97F /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -346,7 +343,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC06E0D2C323C7C00D6F97F /* MainTabView.swift in Sources */,
 				AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */,
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
