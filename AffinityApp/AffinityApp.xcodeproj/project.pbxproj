@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF17DC9A2C33A3EE00717D0F /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */; };
 		AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */; };
+		AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */; };
+		AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */; };
 		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
 		AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DDA2C3239D000D6F97F /* ContentView.swift */; };
 		AFC06DDD2C3239D100D6F97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC06DDC2C3239D100D6F97F /* Assets.xcassets */; };
@@ -39,8 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstant.swift; sourceTree = "<group>"; };
+		AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
+		AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppApp.swift; sourceTree = "<group>"; };
 		AFC06DDA2C3239D000D6F97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +89,17 @@
 				AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		AF6509992C33CFC600CCFDD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFC06E102C324D4D00D6F97F /* UserInfoView.swift */,
+				AFC06E0E2C3244E300D6F97F /* CardView.swift */,
+				AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */,
+				AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AFC06DCC2C3239D000D6F97F = {
@@ -178,7 +191,7 @@
 				AFC06E0B2C323C2900D6F97F /* Messaging */,
 				AFC06E0A2C323C2000D6F97F /* Search */,
 				AFC06E092C323C1900D6F97F /* Profile */,
-				AFC06E082C323C0D00D6F97F /* Cards */,
+				AFC06E082C323C0D00D6F97F /* Card */,
 				AFC06E072C323BF700D6F97F /* TabBar */,
 			);
 			path = Core;
@@ -199,14 +212,12 @@
 			path = TabBar;
 			sourceTree = "<group>";
 		};
-		AFC06E082C323C0D00D6F97F /* Cards */ = {
+		AFC06E082C323C0D00D6F97F /* Card */ = {
 			isa = PBXGroup;
 			children = (
-				AFC06E0E2C3244E300D6F97F /* CardView.swift */,
-				AFC06E102C324D4D00D6F97F /* UserInfoView.swift */,
-				AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */,
+				AF6509992C33CFC600CCFDD9 /* View */,
 			);
-			path = Cards;
+			path = Card;
 			sourceTree = "<group>";
 		};
 		AFC06E092C323C1900D6F97F /* Profile */ = {
@@ -360,13 +371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */,
 				AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */,
-				AF17DC9A2C33A3EE00717D0F /* SwipeActionIndicatorView.swift in Sources */,
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
 				AFC06E112C324D4D00D6F97F /* UserInfoView.swift in Sources */,
 				AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */,
 				AFF047672C3258E700C016B2 /* MainTabView.swift in Sources */,
+				AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
