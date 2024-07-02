@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF17DC9A2C33A3EE00717D0F /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */; };
 		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
 		AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DDA2C3239D000D6F97F /* ContentView.swift */; };
 		AFC06DDD2C3239D100D6F97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC06DDC2C3239D100D6F97F /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppApp.swift; sourceTree = "<group>"; };
 		AFC06DDA2C3239D000D6F97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				AFC06E0E2C3244E300D6F97F /* CardView.swift */,
 				AFC06E102C324D4D00D6F97F /* UserInfoView.swift */,
+				AF17DC992C33A3EE00717D0F /* SwipeActionIndicatorView.swift */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */,
+				AF17DC9A2C33A3EE00717D0F /* SwipeActionIndicatorView.swift in Sources */,
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
 				AFC06E112C324D4D00D6F97F /* UserInfoView.swift in Sources */,
