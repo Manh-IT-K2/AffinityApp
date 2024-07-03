@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */; };
+		AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FCB2C35244200478BB7 /* CardStackView.swift */; };
 		AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */; };
 		AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */; };
 		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstant.swift; sourceTree = "<group>"; };
+		AF239FCB2C35244200478BB7 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +103,7 @@
 				AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */,
 				AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */,
 				AFEAEE112C351E95005761C1 /* CardImageIndicatorView.swift */,
+				AF239FCB2C35244200478BB7 /* CardStackView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
 				AFEAEE122C351E95005761C1 /* CardImageIndicatorView.swift in Sources */,
+				AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */,
 				AFC06E112C324D4D00D6F97F /* UserInfoView.swift in Sources */,
 				AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */,
 				AFF047672C3258E700C016B2 /* MainTabView.swift in Sources */,
