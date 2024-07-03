@@ -12,6 +12,7 @@
 		AF239FD02C3527AB00478BB7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FCF2C3527AB00478BB7 /* UserModel.swift */; };
 		AF239FD32C35287300478BB7 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FD22C35287300478BB7 /* CardModel.swift */; };
 		AF239FD72C35294600478BB7 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FD62C35294600478BB7 /* CardViewModel.swift */; };
+		AF239FDA2C352A1000478BB7 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FD92C352A1000478BB7 /* CardService.swift */; };
 		AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */; };
 		AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */; };
 		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
@@ -50,6 +51,7 @@
 		AF239FCF2C3527AB00478BB7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		AF239FD22C35287300478BB7 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		AF239FD62C35294600478BB7 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		AF239FD92C352A1000478BB7 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,14 @@
 				AF239FD62C35294600478BB7 /* CardViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AF239FD82C3529F100478BB7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AF239FD92C352A1000478BB7 /* CardService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		AF6509992C33CFC600CCFDD9 /* View */ = {
@@ -260,6 +270,7 @@
 		AFC06E082C323C0D00D6F97F /* Card */ = {
 			isa = PBXGroup;
 			children = (
+				AF239FD82C3529F100478BB7 /* Service */,
 				AF239FD52C35291800478BB7 /* ViewModel */,
 				AF239FD12C35286200478BB7 /* Model */,
 				AF6509992C33CFC600CCFDD9 /* View */,
@@ -419,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */,
+				AF239FDA2C352A1000478BB7 /* CardService.swift in Sources */,
 				AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */,
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,

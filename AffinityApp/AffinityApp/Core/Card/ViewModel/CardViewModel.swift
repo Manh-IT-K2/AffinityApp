@@ -10,6 +10,12 @@ import Foundation
 class CardViewModel: ObservableObject {
     @Published var cardModel = [CardModel]()
     
+    private let service: CardService
+    
+    init(service: CardService){
+        self.service = service
+    }
+    
     func fetchCardModel( ){
         
     }
