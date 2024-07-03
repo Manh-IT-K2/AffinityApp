@@ -14,6 +14,9 @@ class CardViewModel: ObservableObject {
     
     init(service: CardService){
         self.service = service
+        Task {
+            await fetchCardModel()
+        }
     }
     
     func fetchCardModel() async {

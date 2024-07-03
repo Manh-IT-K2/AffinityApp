@@ -11,24 +11,22 @@ struct CardView: View {
     @State private var xOffset: CGFloat = 0
     @State private var degrees: Double = 0
     @State private var currentImageIndex = 0
-    @State private var mockImage = [
-        "test1",
-        "test2",
-        "test3"
-    ]
+
+    let model: CardModel
+    
     var body: some View {
         ZStack(alignment: .bottom){
             ZStack(alignment: .top){
-                Image(mockImage[currentImageIndex])
+                Image(model.user.image[currentImageIndex])
                     .resizable()
                     .scaledToFill()
-                    .overlay(ImageScrollingOverlay(currentImageIndex: $currentImageIndex, imageCount: mockImage.count))
-                CardImageIndicatorView(curentImageIndex: currentImageIndex, imageCount: mockImage.count)
+                    .frame(width: SizeConstant.cardWidth, height: SizeConstant.cardHeight)
+                    .overlay(ImageScrollingOverlay(currentImageIndex: $currentImageIndex, imageCount: imageCount))
+                CardImageIndicatorView(curentImageIndex: currentImageIndex, imageCount: imageCount)
                 SwipeActionIndicatorView(xOffset: $xOffset)
             }
             
-            UserInfoView()
-                .padding(.horizontal)
+            UserInfoView(user: user)
         }
         .frame(width: SizeConstant.cardWidth, height: SizeConstant.cardHeight)
         .clipShape(RoundedRectangle(cornerRadius: 10))
@@ -40,6 +38,17 @@ struct CardView: View {
                 .onChanged(onDragChanged)
                 .onEnded(onDragEnded)
         )
+    }
+}
+
+//
+private extension CardView {
+    var user: UserModel {
+        return model.user
+    }
+    
+    var imageCount: Int {
+        return model.user.image.count
     }
 }
 
@@ -84,5 +93,5 @@ private extension CardView {
 }
 
 #Preview {
-    CardView()
+    CardView(model: CardModel(user: MockData.user[1]))
 }

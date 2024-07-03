@@ -15,6 +15,6 @@ struct SizeConstant {
         UIScreen.main.bounds.width - 20
     }
     static var cardHeight: CGFloat {
-        UIScreen.main.bounds.height / 1.25
+        UIScreen.main.bounds.height / 1.45
     }
 }
