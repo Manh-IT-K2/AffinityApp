@@ -23,6 +23,7 @@ struct CardView: View {
                     .resizable()
                     .scaledToFill()
                     .overlay(ImageScrollingOverlay(currentImageIndex: $currentImageIndex, imageCount: mockImage.count))
+                CardImageIndicatorView(curentImageIndex: currentImageIndex, imageCount: mockImage.count)
                 SwipeActionIndicatorView(xOffset: $xOffset)
             }
             
