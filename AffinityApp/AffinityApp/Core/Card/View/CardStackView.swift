@@ -12,17 +12,20 @@ struct CardStackView: View {
     @StateObject var viewModel = CardViewModel(service: CardService())
     
     var body: some View {
-        ZStack {
-            ForEach(viewModel.cardModel) {
-                card in
-                CardView(viewModel: viewModel, model: card)
+        VStack (spacing: 16) {
+            ZStack {
+                ForEach(viewModel.cardModel) {
+                    card in
+                    CardView(viewModel: viewModel, model: card)
+                }
             }
+            SwipeActionButtonView()
         }
-        .onChange(of: viewModel.cardModel){
-            oldValue, newValue in
-            print("DEBUG: old value count is \(oldValue.count)")
-            print("DEBUG: new value count is \(newValue.count)")
-        }
+//        .onChange(of: viewModel.cardModel){
+//            oldValue, newValue in
+//            print("DEBUG: old value count is \(oldValue.count)")
+//            print("DEBUG: new value count is \(newValue.count)")
+//        }
     }
 }
 
