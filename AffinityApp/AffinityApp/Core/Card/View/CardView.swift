@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct CardView: View {
+    @ObservedObject var viewModel: CardViewModel
+    
     @State private var xOffset: CGFloat = 0
     @State private var degrees: Double = 0
     @State private var currentImageIndex = 0
-
+    
     let model: CardModel
     
     var body: some View {
@@ -63,11 +65,15 @@ private extension CardView {
     func swipeRight(){
         xOffset = 500
         degrees = 12
+        
+        viewModel.removeCard(model)
     }
     
     func swipeLeft(){
         xOffset = -500
         degrees = -12
+        
+        viewModel.removeCard(model)
     }
 }
 
@@ -81,7 +87,7 @@ private extension CardView {
     func onDragEnded(_ value: _ChangedGesture<DragGesture>.Value){
         let width = value.translation.width
         if abs(width) <= abs(SizeConstant.screenCutoff) {
-           returnToCenter()
+            returnToCenter()
             return
         }
         if width >= SizeConstant.screenCutoff {
@@ -93,5 +99,5 @@ private extension CardView {
 }
 
 #Preview {
-    CardView(model: CardModel(user: MockData.user[1]))
+    CardView(viewModel: CardViewModel(service: CardService()), model: CardModel(user: MockData.user[1]))
 }
