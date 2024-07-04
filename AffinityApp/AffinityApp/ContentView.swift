@@ -6,15 +6,11 @@
 //
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-           CardStackView()
+struct ContentView: App {
+    var body: some Scene {
+        WindowGroup {
+            MainTabView()
         }
        
     }
-}
-
-#Preview {
-    ContentView()
 }
