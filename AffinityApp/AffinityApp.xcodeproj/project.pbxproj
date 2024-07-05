@@ -16,6 +16,7 @@
 		AF239FDD2C352BE400478BB7 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FDC2C352BE400478BB7 /* MockData.swift */; };
 		AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */; };
 		AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */; };
+		AF9BE7722C378C75006A3811 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE7712C378C75006A3811 /* UserProfileView.swift */; };
 		AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */; };
 		AFC06DDB2C3239D000D6F97F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC06DDA2C3239D000D6F97F /* ContentView.swift */; };
 		AFC06DDD2C3239D100D6F97F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC06DDC2C3239D100D6F97F /* Assets.xcassets */; };
@@ -58,6 +59,7 @@
 		AF239FDC2C352BE400478BB7 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
+		AF9BE7712C378C75006A3811 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		AFC06DD52C3239D000D6F97F /* AffinityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AffinityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC06DD82C3239D000D6F97F /* AffinityAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AffinityAppApp.swift; sourceTree = "<group>"; };
 		AFC06DDA2C3239D000D6F97F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 		AFC06E092C323C1900D6F97F /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				AF9BE7712C378C75006A3811 /* UserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -454,6 +457,7 @@
 				AFC06E0F2C3244E300D6F97F /* CardView.swift in Sources */,
 				AF239FDD2C352BE400478BB7 /* MockData.swift in Sources */,
 				AFC06DD92C3239D000D6F97F /* AffinityAppApp.swift in Sources */,
+				AF9BE7722C378C75006A3811 /* UserProfileView.swift in Sources */,
 				AFEAEE122C351E95005761C1 /* CardImageIndicatorView.swift in Sources */,
 				AF239FD32C35287300478BB7 /* CardModel.swift in Sources */,
 				AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */,

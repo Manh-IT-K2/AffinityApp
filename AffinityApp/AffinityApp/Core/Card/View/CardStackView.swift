@@ -12,16 +12,26 @@ struct CardStackView: View {
     @StateObject var viewModel = CardViewModel(service: CardService())
     
     var body: some View {
-        VStack (spacing: 16) {
-            ZStack {
-                ForEach(viewModel.cardModel) {
-                    card in
-                    CardView(viewModel: viewModel, model: card)
+        NavigationStack {
+            VStack (spacing: 16) {
+                ZStack {
+                    ForEach(viewModel.cardModel) {
+                        card in
+                        CardView(viewModel: viewModel, model: card)
+                    }
+                }
+                if !viewModel.cardModel.isEmpty {
+                    SwipeActionButtonView(viewModel: viewModel)
                 }
             }
-            if !viewModel.cardModel.isEmpty {
-                SwipeActionButtonView(viewModel: viewModel)
-            }
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Image(.logoApp)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 160)
+                }
+        }
         }
 //        .onChange(of: viewModel.cardModel){
 //            oldValue, newValue in
