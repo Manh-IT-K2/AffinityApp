@@ -19,7 +19,9 @@ struct CardStackView: View {
                     CardView(viewModel: viewModel, model: card)
                 }
             }
-            SwipeActionButtonView()
+            if !viewModel.cardModel.isEmpty {
+                SwipeActionButtonView(viewModel: viewModel)
+            }
         }
 //        .onChange(of: viewModel.cardModel){
 //            oldValue, newValue in
