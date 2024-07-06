@@ -39,6 +39,7 @@ struct CurrentUserProfileHeaderView: View {
                 .font(.title2)
                 .fontWeight(.light)
         }
+        .frame(maxWidth: .infinity)
         .frame(height: 240)
     }
 }
