@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF10C6162C3BE55F0010C490 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10C6152C3BE55F0010C490 /* EditProfileView.swift */; };
+		AF10C6182C3BFD110010C490 /* ProfileImageGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10C6172C3BFD110010C490 /* ProfileImageGridView.swift */; };
 		AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */; };
 		AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FCB2C35244200478BB7 /* CardStackView.swift */; };
 		AF239FD02C3527AB00478BB7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FCF2C3527AB00478BB7 /* UserModel.swift */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		AF10C6152C3BE55F0010C490 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		AF10C6172C3BFD110010C490 /* ProfileImageGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGridView.swift; sourceTree = "<group>"; };
 		AF17DC9D2C33A8F200717D0F /* SizeConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstant.swift; sourceTree = "<group>"; };
 		AF239FCB2C35244200478BB7 /* CardStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackView.swift; sourceTree = "<group>"; };
 		AF239FCF2C3527AB00478BB7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 				AFC00FF02C39AF14004DFC05 /* CurrentUserProfileHeaderView.swift */,
 				AFC00FF22C39B4E9004DFC05 /* CurrentUserProfileView.swift */,
 				AF10C6152C3BE55F0010C490 /* EditProfileView.swift */,
+				AF10C6172C3BFD110010C490 /* ProfileImageGridView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -472,6 +475,7 @@
 				AFEAEE122C351E95005761C1 /* CardImageIndicatorView.swift in Sources */,
 				AF239FD32C35287300478BB7 /* CardModel.swift in Sources */,
 				AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */,
+				AF10C6182C3BFD110010C490 /* ProfileImageGridView.swift in Sources */,
 				AFC06E112C324D4D00D6F97F /* UserInfoView.swift in Sources */,
 				AF239FD72C35294600478BB7 /* CardViewModel.swift in Sources */,
 				AF17DC9E2C33A8F200717D0F /* SizeConstant.swift in Sources */,

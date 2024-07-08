@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct EditProfileView: View {
-    
+    let user: UserModel
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationStack {
             ScrollView {
-                
+                ProfileImageGridView(user: user)
+                    .padding()
             }
             .scrollIndicators(.hidden)
             .navigationTitle("Edit Profile")
@@ -36,5 +37,5 @@ struct EditProfileView: View {
 }
 
 #Preview {
-    EditProfileView()
+    EditProfileView(user: MockData.user[0])
 }
