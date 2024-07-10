@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardStackView: View {
+    @EnvironmentObject var matchManager: MatchManager
     @State private var showMatchView = false
     @StateObject var viewModel = CardViewModel(service: CardService())
     
@@ -26,16 +27,21 @@ struct CardStackView: View {
                     }
                 }
                 .blur(radius: showMatchView ? 20 : 0)
+                
                 if showMatchView {
                     UserMatchView(show: $showMatchView)
                 }
+            }
+            .animation(.easeInOut, value: showMatchView)
+            .onReceive(matchManager.$matchedUser){ user in
+                showMatchView = user != nil
             }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Image(.logoApp)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 160)
+                        .frame(width: 150)
                 }
             }
         }
@@ -44,4 +50,5 @@ struct CardStackView: View {
 
 #Preview {
     CardStackView()
+        .environmentObject(MatchManager())
 }
