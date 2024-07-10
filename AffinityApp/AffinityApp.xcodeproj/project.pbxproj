@@ -16,6 +16,7 @@
 		AF239FD72C35294600478BB7 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FD62C35294600478BB7 /* CardViewModel.swift */; };
 		AF239FDA2C352A1000478BB7 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FD92C352A1000478BB7 /* CardService.swift */; };
 		AF239FDD2C352BE400478BB7 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF239FDC2C352BE400478BB7 /* MockData.swift */; };
+		AF58E0682C3E670600C78DE0 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF58E0672C3E670600C78DE0 /* MatchManager.swift */; };
 		AF65099D2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */; };
 		AF65099F2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */; };
 		AF9BE7722C378C75006A3811 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9BE7712C378C75006A3811 /* UserProfileView.swift */; };
@@ -64,6 +65,7 @@
 		AF239FD62C35294600478BB7 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		AF239FD92C352A1000478BB7 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
 		AF239FDC2C352BE400478BB7 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		AF58E0672C3E670600C78DE0 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; };
 		AF65099C2C33D79E00CCFDD9 /* SwipeActionIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicatorView.swift; sourceTree = "<group>"; };
 		AF65099E2C33D7E800CCFDD9 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		AF9BE7712C378C75006A3811 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
@@ -338,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				AFD025BC2C3D7FE600B25DC3 /* UserMatchView.swift */,
+				AF58E0672C3E670600C78DE0 /* MatchManager.swift */,
 			);
 			path = Matches;
 			sourceTree = "<group>";
@@ -485,6 +488,7 @@
 				AF9BE7722C378C75006A3811 /* UserProfileView.swift in Sources */,
 				AFEAEE122C351E95005761C1 /* CardImageIndicatorView.swift in Sources */,
 				AF239FD32C35287300478BB7 /* CardModel.swift in Sources */,
+				AF58E0682C3E670600C78DE0 /* MatchManager.swift in Sources */,
 				AFD025BD2C3D7FE600B25DC3 /* UserMatchView.swift in Sources */,
 				AF239FCC2C35244200478BB7 /* CardStackView.swift in Sources */,
 				AF10C6182C3BFD110010C490 /* ProfileImageGridView.swift in Sources */,

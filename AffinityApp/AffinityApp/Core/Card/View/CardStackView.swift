@@ -8,20 +8,26 @@
 import SwiftUI
 
 struct CardStackView: View {
-    
+    @State private var showMatchView = false
     @StateObject var viewModel = CardViewModel(service: CardService())
     
     var body: some View {
         NavigationStack {
-            VStack (spacing: 16) {
-                ZStack {
-                    ForEach(viewModel.cardModel) {
-                        card in
-                        CardView(viewModel: viewModel, model: card)
+            ZStack {
+                VStack (spacing: 16) {
+                    ZStack {
+                        ForEach(viewModel.cardModel) {
+                            card in
+                            CardView(viewModel: viewModel, model: card)
+                        }
+                    }
+                    if !viewModel.cardModel.isEmpty {
+                        SwipeActionButtonView(viewModel: viewModel)
                     }
                 }
-                if !viewModel.cardModel.isEmpty {
-                    SwipeActionButtonView(viewModel: viewModel)
+                .blur(radius: showMatchView ? 20 : 0)
+                if showMatchView {
+                    UserMatchView(show: $showMatchView)
                 }
             }
             .toolbar {
@@ -31,13 +37,8 @@ struct CardStackView: View {
                         .scaledToFill()
                         .frame(width: 160)
                 }
+            }
         }
-        }
-//        .onChange(of: viewModel.cardModel){
-//            oldValue, newValue in
-//            print("DEBUG: old value count is \(oldValue.count)")
-//            print("DEBUG: new value count is \(newValue.count)")
-//        }
     }
 }
 
